@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+
+    <dimen name="progress_bar_height">90dp</dimen>
+    <dimen name="progress_bar_width">90dp</dimen>
+    <dimen name="toolbar_start_margin">0dp</dimen>
+    <dimen name="registration_parent_left_right">20dp</dimen>
+    <dimen name="registration_parent_bottom_top_margin">23dp</dimen>
+
+    <dimen name="title_font_size">18sp</dimen>
+    <dimen name="normal_text_size">14sp</dimen>
+    <dimen name="code_end_margin">6dp</dimen>
+    <dimen name="registration_text_view_top_margin">36dp</dimen>
+    <dimen name="registration_edit_text_top_margin">4dp</dimen>
+    <dimen name="registration_gap_margin">6dp</dimen>
+    <dimen name="registration_emirate_image_hint_height">100dp</dimen>
+    <dimen name="registration_footer_margin_top">45dp</dimen>
+    <dimen name="registration_tnc_margin_bottom">20dp</dimen>
+    <dimen name="registration_subtitle_top_margin">6dp</dimen>
+
+    <dimen name="button_radius">4dp</dimen>
+    <dimen name="footer_button_margin_bottom">18dp</dimen>
+    <dimen name="footer_button_margin_start_end">76dp</dimen>
+
+    <dimen name="register_link_font_size">16sp</dimen>
+    <dimen name="login_text_view_top_margin">36dp</dimen>
+    <dimen name="login_edit_text_top_margin">15dp</dimen>
+    <dimen name="login_gap_margin">6dp</dimen>
+    <dimen name="login_button_top_margin">30dp</dimen>
+</resources>

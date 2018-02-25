@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/login_button_top_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jay.com.rxuidemo.login.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <TextView
+        android:id="@+id/text_view_login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/login_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_font_size"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view_login_tag_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/registration_subtitle_top_margin"
+        android:gravity="center_horizontal"
+        android:text="@string/login_subtitle"
+        android:textColor="@color/registration_text_color"
+        android:textSize="@dimen/normal_text_size"
+        android:typeface="monospace"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view_login_title" />
+
+    <!-- User name-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_edit_text_top_margin"
+        android:textColorHint="@color/login_text_hint_color"
+        android:theme="@style/text_input_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_view_login_tag_line">
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/edit_text_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/login_user_name"
+            android:inputType="text|textNoSuggestions"
+            android:maxLength="50"
+            android:textColor="@color/login_text_color"
+            android:textSize="@dimen/normal_text_size" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Password name-->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/login_button_top_margin"
+        android:layout_marginTop="@dimen/login_edit_text_top_margin"
+        android:textColorHint="@color/login_text_hint_color"
+        android:theme="@style/text_input_layout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_user_name">
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/login_password"
+            android:inputType="text|textNoSuggestions"
+            android:maxLength="50"
+            android:textColor="@color/login_text_color"
+            android:textSize="@dimen/normal_text_size" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!--SignIn button-->
+    <Button
+        android:id="@+id/button_login"
+        style="@style/button_footer"
+        android:enabled="false"
+        android:text="@string/login_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_password" />
+
+    <TextView
+        android:id="@+id/text_view_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_edit_text_top_margin"
+        android:gravity="center_horizontal"
+        android:text="@string/registration_link"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/register_link_font_size"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_login" />
+
+</android.support.constraint.ConstraintLayout>

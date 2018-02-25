@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- User Details -->
+    <color name="registration_text_color">#282828</color>
+    <color name="registration_text_hint_color">#61000000</color>
+    <color name="registration_profile_background">#FFF8F8F8</color>
+    <color name="registration_profile_dotted_color">#D2D2D2</color>
+    <color name="registration_profile_tnc">#0971EB</color>
+    <color name="registration_text_error_color">#ff0033</color>
+
+
+    <color name="login_text_color">#282828</color>
+    <color name="login_text_hint_color">#61000000</color>
+
+    <color name="color_solid_ripple">#233864</color>
+    <color name="button_background">#375491</color>
+    <color name="button_disable_background">#CACDD5</color>
+</resources>
